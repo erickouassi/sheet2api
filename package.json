@@ -1,5 +1,5 @@
 {
-  "name": "gsx2json",
+  "name": "sheet2api",
   "version": "1.0.0",
   "description": "Google Spreadsheet to JSON API app",
   "main": "app.js",
