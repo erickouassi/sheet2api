@@ -1,4 +1,4 @@
-var api = require('./api_2');
+var api = require('./api');
 
 var express = require('express');
 var path = require('path');
