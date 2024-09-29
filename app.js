@@ -19,6 +19,12 @@ app.use(function(req, res, next) {
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
+// Landing page route
+app.get('/', (req, res) => {
+  // Render your landing page template or send a simple response
+  res.json({ message: "http://sheet2api.vercel.app/api?id=SPREADSHEET_ID&sheet=SHEET_NAME" });
+});
+
 // get api
 app.get('/api', api);
 
